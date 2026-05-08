@@ -1,0 +1,39 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+sqlplan-analyzer
+cli
+
+# Test files
+*.test
+*.out
+
+# Go
+vendor/
+# go.sum is needed for reproducible builds
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Old internal directory (replaced by public packages)
+internal/
+
+# Temporary files
+*.sqlplan
+examples/
+sql/
+
+# Documentation (keep README.md)
+!README.md
